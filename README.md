@@ -23,16 +23,6 @@ Since iOS limits pending local notifications to 64 per app, FunFacts **batch-sch
 
 All state — name, avatar, interests, coins, and owned avatars — lives in a single `AppState` observable object persisted with UserDefaults, keeping the app simple and completely offline.
 
-## Architecture
-
-```
-FunFacts
-├── Core/            # AppState (UserDefaults persistence),
-│                    # FactsArrays (categorized facts),
-│                    # Notifications (64-day batch scheduler)
-└── Views/           # Splash, Onboarding, Sign in, Interests,
-                     # Fun fact page, Profile, Edit profile
-```
 
 ## Tech Stack
 
