@@ -8,6 +8,8 @@ FunFacts is an iOS app that delivers a unique daily fun fact through local notif
 <br>
 <img width="1920" height="1080" alt="Funfacts2025" src="https://github.com/user-attachments/assets/e4c62727-62d5-431a-94ed-f2d4c86fcae5" />
 <br>
+<br>
+
 
 ## Features
 
@@ -16,6 +18,7 @@ FunFacts is an iOS app that delivers a unique daily fun fact through local notif
 - **Personal profile** — pick a name and an animal avatar from a collection of 17
 - **Coin economy** — start with 10 coins, earn more by sharing facts, and spend them to unlock new avatars
 - **Onboarding flow** and a fully offline experience — no account, no server
+<br>
 
 ## How It Works
 
@@ -23,6 +26,7 @@ Since iOS limits pending local notifications to 64 per app, FunFacts **batch-sch
 
 All state — name, avatar, interests, coins, and owned avatars — lives in a single `AppState` observable object persisted with UserDefaults, keeping the app simple and completely offline.
 
+<br>
 
 ## Tech Stack
 
